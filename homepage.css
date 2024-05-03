@@ -1,0 +1,200 @@
+.banner {
+    height: 100px;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bg.png);
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    height: 1000px;
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.Navbar {
+    font-family: sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start; 
+    line-height: 3;
+    width: 50px;
+    height: 100%;
+    background-color: #222;
+    padding-right: 80px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 0;
+    transition: width .75s ease;
+    top: 100px;
+}
+
+.Navbar:hover {
+    width: 300px;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.Navbar li {
+    margin-bottom: 10px;
+}
+
+.Navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.Navbar ul li a {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0 30px; 
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Navbar ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
+.Navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.home_icon{
+    width: 30px;
+    margin-right: 40px;
+    margin-top: -10px;
+    vertical-align: middle;
+}
+
+.room_icon {
+    width: 23px;
+    margin-right: 40px;
+    margin-top: -10px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.avail_icon {
+    width: 30px;
+}
+
+.greeting {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin-top: -500px; 
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.content {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.section {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section1 {
+    height: 800px;
+    padding: 100px;
+    margin-top: 500px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section2 {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section3 {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section4 {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section5 {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section6 {
+    height: 800px;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
